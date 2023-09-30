@@ -1,0 +1,9 @@
+import pyRAPL
+
+	pyRAPL.setup()
+	meter = pyRAPL.Measurement('bar')
+	meter.begin()
+	# ...
+	# Instructions to be evaluated.
+	# ...
+	meter.end()
